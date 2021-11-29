@@ -1,0 +1,130 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* custom styles */
+ .square01{
+     background-color: red;
+     width: 160px;
+     height: 100px;
+     margin: 50px;
+     border: black;
+     
+     border-style: solid;
+ }
+ .square02{
+    background-color: red;
+    width: 160px;
+    height: 100px;
+    margin: 50px;
+    display: inline-block;
+    border: black;
+    border-style: groove;
+}
+.square03{
+    background-color: red;
+    width: 160px;
+    height: 100px;
+    margin: 50px;
+    display: inline-block;
+    border: black;
+    border-style: dashed;
+    
+    
+   
+   
+}
+.square04{
+    background-color: red;
+    width: 160px;
+    height: 100px;
+    margin: 50px;
+    display: inline-block;
+    border: black;
+    border-style: double;
+   
+    
+    
+    
+}
+.square05{
+    background-color: red;
+    width: 160px;
+    height: 100px;
+    margin: 50px;
+    display: inline-block;
+    border: black;
+    border-style: dotted;
+    
+}
+p{
+    width: 500px;
+    height: 575px;
+    background-color: red;
+    font-size: 28px;
+    margin: 30px;
+    padding: 25px;
+    border-top-width: 13px;
+    border-top-style: solid;
+    border-top-color: blue;
+    border-bottom-width: 13px;
+    border-bottom-style: solid;
+    border-bottom-color: yellow;
+    border-left-width: 13px;
+    border-left-style: solid;
+    border-left-color: green;
+    border-right-width: 13px;
+    border-right-style: solid;
+    border-right-color: grey;
+    outline-width: 18px;
+    outline-style: solid;
+    outline-color: purple;
+
+    
+}
+
+
