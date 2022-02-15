@@ -47,84 +47,47 @@ table {
 	border-spacing: 0;
 }
 /* custom styles */
- .square01{
-     background-color: red;
+h1{
+    font-size: 36px;
+    margin: 50px;
+}
+ .square{
+     background-color: #B22E25;
      width: 160px;
      height: 100px;
      margin: 50px;
-     border: black;
-     
-     border-style: solid;
+     border: black 4px;
+     display: inline-block;
  }
- .square02{
-    background-color: red;
-    width: 160px;
-    height: 100px;
-    margin: 50px;
-    display: inline-block;
-    border: black;
-    border-style: groove;
+ .solid{
+    border-style:  solid;
 }
-.square03{
-    background-color: red;
-    width: 160px;
-    height: 100px;
-    margin: 50px;
-    display: inline-block;
-    border: black;
+.dashed{
     border-style: dashed;
-    
-    
-   
-   
 }
-.square04{
-    background-color: red;
-    width: 160px;
-    height: 100px;
-    margin: 50px;
-    display: inline-block;
-    border: black;
-    border-style: double;
-   
-    
-    
-    
-}
-.square05{
-    background-color: red;
-    width: 160px;
-    height: 100px;
-    margin: 50px;
-    display: inline-block;
-    border: black;
+.dotted{
     border-style: dotted;
+    }
+.double{
+    border-style:double ;
     
+}
+.container{
+    display: inline-block;
+    padding: 36px 24px;
+    background-color: #802D80;
+    margin: 50px;
 }
 p{
-    width: 500px;
-    height: 575px;
+    width: 350px;
     background-color: red;
     font-size: 28px;
-    margin: 30px;
     padding: 25px;
-    border-top-width: 13px;
-    border-top-style: solid;
-    border-top-color: blue;
-    border-bottom-width: 13px;
-    border-bottom-style: solid;
-    border-bottom-color: yellow;
-    border-left-width: 13px;
-    border-left-style: solid;
-    border-left-color: green;
-    border-right-width: 13px;
-    border-right-style: solid;
-    border-right-color: grey;
-    outline-width: 18px;
-    outline-style: solid;
-    outline-color: purple;
-
-    
+    color: white;
+    border-top: 20px #234AFB solid; 
+    border-right: 20px #808080 solid; 
+    border-bottom: 20px #FDF731 solid; 
+    border-left: 20px #408106 solid; 
 }
 
 
